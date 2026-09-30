@@ -26,7 +26,8 @@ nest_asyncio.apply()
 # SETTINGS
 # =========================================================
 
-TOKEN = "PUT_YOUR_NEW_TOKEN_HERE""
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 
 ADMIN_ID = 1612260431
 
