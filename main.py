@@ -1382,4 +1382,4 @@ async def run_bot():
         await asyncio.sleep(3600)
 
 
-await run_bot()
+asyncio.run(run_bot())
